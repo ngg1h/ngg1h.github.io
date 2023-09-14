@@ -9,24 +9,24 @@
 html, body {
   height: 100%;
   background-color: #060912;
-  color: #acb6bf;
+  color: #FF0000; /* Merah (#FF0000) */
 }
 
 a {
   text-decoration: none;
-  color: #5463c4;
+  color: #FF0000; /* Merah (#FF0000) */
   border-bottom: 1px solid black;
 }
 
 a:hover {
-  color: #aaa;
-  border-bottom: 1px solid #aaa;
+  color: #FF0000; /* Merah (#FF0000) */
+  border-bottom: 1px solid #FF0000; /* Merah (#FF0000) */
 }
 
 blockquote {
   margin: 15px;
   padding-left: 15px;
-  border-left: 2px solid #DD82A2;
+  border-left: 2px solid #FF0000; /* Merah (#FF0000) */
 }
 
 h1, h2, h3, h4, h5, h6 {
