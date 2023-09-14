@@ -1,12 +1,11 @@
-- default: menu_index
-  url: ''
+- title: "home"
+  url:   ""
 
-- default: menu_category
-  url: 'categories'
+- title: "categories"
+  url:   "category"
 
-- title: 'Jekyll Paper for Github'
-  absoluteUrl: true
-  url: 'https://github.com/ghosind/Jekyll-Paper-Github'
+- title:  "projects"
+  url:    "projects"
 
-- default: menu_about
-  url: 'about'
+- title: "whoami"
+  url:   "whoami"
