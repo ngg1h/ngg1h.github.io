@@ -21,7 +21,7 @@ im recently focused / concerned in web development & art of exploitation, includ
 
 i need much time to learn those stuff, so be quite and calm please.
 
-```c
+```bash
 #include <stdio.h>
 
 int main(int argc, char *argv[]) {
