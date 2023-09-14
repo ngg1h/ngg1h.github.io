@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  "Welcome to My Site!"
-date:   2023-08-25
-categories: [Learning]
-tags: [Learning]
+date:   2023-05-05
+categories: [learning]
+tags: [learning]
 comments: true
 ---
 

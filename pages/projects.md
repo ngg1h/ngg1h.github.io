@@ -10,13 +10,13 @@ permalink: /projects/
 
 <a href="https://github.com/Banzly/PyWeeks">PYWEEKS</a>
 <div style="padding-top: 4px;"></div>
-`Pyweeks` is a collection of weekly projects that showcase your ongoing efforts and progress. This repository serves as a testament to your commitment to creating diverse projects using the Python programming language. Each week, you've dedicated yourself to crafting a new project and uploading it to this repository.
+Pyweeks is a collection of weekly projects that showcase your ongoing efforts and progress. This repository serves as a testament to your commitment to creating diverse projects using the Python programming language. Each week, you've dedicated yourself to crafting a new project and uploading it to this repository.
 
 Within this repository, you'll discover a range of project types spanning various programming and software development domains. From simple console applications to more intricate GUI-based endeavors, "Pyweeks" demonstrates the evolution of your skills over time. Each project is accompanied by a concise description outlining its objectives, the technologies employed, the challenges encountered, and your approaches to resolving them.
 
-Through `Pyweeks,` you not only showcase the advancement and evolution of your Python programming prowess but also your ability to consistently plan, design, and execute projects. This repository offers a comprehensive view of your journey in the realm of programming and software development.
+Through Pyweeks, you not only showcase the advancement and evolution of your Python programming prowess but also your ability to consistently plan, design, and execute projects. This repository offers a comprehensive view of your journey in the realm of programming and software development.
 
-Whether it's a basic calculator project, a task manager application, a puzzle game, or a data manipulation library, `Pyweeks` presents tangible evidence of your dedication to enhancing your programming skills week after week.
+Whether it's a basic calculator project, a task manager application, a puzzle game, or a data manipulation library, Pyweeks presents tangible evidence of your dedication to enhancing your programming skills week after week.
 
 ---
 
