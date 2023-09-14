@@ -4,16 +4,13 @@
   text-align: center;
 }
 
-.post-content {
-  // scrollable for mobile devices
-  overflow-x: scroll;
-}
-
-.post-content p {
-  line-height: 20px;
+.post-author {
+  display: none;
 }
 
 .post-content img {
+  border: 2px solid #81abc7;
+  padding: 5px;
   display: block;
   margin: 10px auto;
 }
@@ -23,7 +20,6 @@
   margin: 10px 0;
 }
 
-.post-category,
-.post-tag {
+.post-category, .post-tag {
   margin: 0 5px;
 }
