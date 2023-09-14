@@ -8,27 +8,37 @@
   overflow-x: auto;
   font-size: 14px;
   text-indent: 0px;
-  background-color: #8b0000; /* Ubah kode warna menjadi merah tua (dark red) */
+  background-color: #04060d;
   box-shadow: 0px 1.5px 0px 1.5px rgba(129, 171, 199, 1);
 }
-
 .highlight::-webkit-scrollbar-track, pre.highlight::-webkit-scrollbar-track, pre::-webkit-scrollbar-track {
   background-color: #071022;
+  
 }
-
 .highlight::-webkit-scrollbar-thumb, pre.highlight::-webkit-scrollbar-thumb, pre::-webkit-scrollbar-thumb {
   background-color: #919ab6;
 }
-
 .highlight::-webkit-scrollbar, pre.highlight::-webkit-scrollbar, pre::-webkit-scrollbar {
   width: 5px;
 }
-
 .highlight::-webkit-scrollbar-thumb:hover, pre.highlight::-webkit-scrollbar-thumb:hover, pre::-webkit-scrollbar-thumb:hover {
   background-color: #81abc7;
 }
 
+// body::-webkit-scrollbar-button {
+//  display: none;
+//}
+//body::-webkit-scrollbar {
+
+//}
+//body::-webkit-scrollbar-track {
+ // background: black;
+//}
+//body::-webkit-scrollbar-thumb {
+
+//}
+
 .highlighter-rouge {
   font-size: 14px;
-  background-color: #8b0000; /* Ubah kode warna menjadi merah tua (dark red) */
+  background-color: #04060d;
 }
