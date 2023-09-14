@@ -9,35 +9,35 @@
 html, body {
   height: 100%;
   background-color: #060912;
-  color: #FF0000; /* Merah (#FF0000) */
+  color: #820808; /* Merah (#FF0000) */
 }
 
 a {
   text-decoration: none;
-  color: #FF0000; /* Merah (#FF0000) */
+  color: #820808; /* Merah (#FF0000) */
   border-bottom: 1px solid black;
 }
 
 a:hover {
   color: #FF0000; /* Merah (#FF0000) */
-  border-bottom: 1px solid #FF0000; /* Merah (#FF0000) */
+  border-bottom: 1px solid #820808; /* Merah (#FF0000) */
 }
 
 blockquote {
   margin: 15px;
   padding-left: 15px;
-  border-left: 2px solid #FF0000; /* Merah (#FF0000) */
+  border-left: 2px solid #820808; /* Merah (#FF0000) */
 }
 
 h1, h2, h3, h4, h5, h6 {
   line-height: normal;
   margin: 5px 0;
   text-indent: 0;
-  color: #FF0000; /* Merah */
+  color: #820808; /* Merah */
 }
 
 code.language-plaintext.highlighter-rouge {
-  color: #DD82A2;
+  color: #820808;
 }
 
 h2 {
@@ -47,7 +47,7 @@ h2 {
 hr {
   margin-bottom: 15px;
   margin-top: 15px;
-  border: 2px solid #91bad6;
+  border: 2px solid #820808;
 }
 
 img {
@@ -67,7 +67,7 @@ table {
 }
 
 tbody tr:hover {
-  background-color: #f5f5f5;
+  background-color: #820808;
 }
 
 td {
@@ -78,5 +78,5 @@ td {
 th {
   padding: 8px;
   border-bottom: 1px solid #ccc;
-  background: #f5f5f5;
+  background: #820808;
 }
