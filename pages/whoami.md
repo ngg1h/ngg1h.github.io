@@ -35,7 +35,7 @@ int main(int argc, char *argv[]) {
 <!-- * <a href="javascript:window.open('mailto:' + ['sharpicx','duck.com'].join('@'))">email</a> -->
 * [github]
 * [Site]
-* [hackmyvm]
+* [htb]
 
 
 [htb]: https://app.hackthebox.com/profile/1310965
